@@ -9,4 +9,6 @@ let numero2 = parseFloat (prompt("Gastos de Luz"))
 let numero3 = parseFloat (prompt("Gastos de Internet y Telefono"))
 let numero4 = parseFloat (prompt("Gastos de Comida"))
 
-alert (numero1 + numero2 + numero3 + numero4)
+let gastosTotales = numero1 + numero2 + numero3 + numero4
+
+alert(`Hola ${nombre} ! Tus Gastos Totales son de: $` + gastosTotales )
