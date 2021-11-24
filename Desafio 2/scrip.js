@@ -1,12 +1,12 @@
 let empleo = prompt("Tiene Empleo?")
 
 if(empleo === "si" ) {
-    console.log(alert("Aplica"))
+    console.log(alert("Aplica a los requisitos del prestamo."))
 } else {
-    console.log(alert("No aplica"))
+    console.log(alert("No aplica a los requisitos del prestamo"))
 }
 
-let monto = parseInt(prompt("Ingrese el Prestamo que desea."))
+let monto = parseInt(prompt("Ingrese el monto del prestamo que desea."))
 
 if(monto >= 1000 && monto < 10000 ){
     console.log(alert("El monto que usted ingresa es demasiado pequeño."))
@@ -23,16 +23,3 @@ else if(monto > 10000 && monto <= 20000){
  else {
     console.log(alert ("Ingrese una cifra valida"))
 }
-
-
-/*let empleo = parseInt(prompt("Tiene empleo?"))
-
-if(empleo === "si")  {
-    console.log(alert("Aplica"))
-}
-else if(empleo === "no") {
-    console.log(alert("No aplica"))
-}
-else {
-    console.log(alert ("Respuesta invalida"))
-} */
