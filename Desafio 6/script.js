@@ -31,7 +31,7 @@ for(let productosDate of productos) {
 console.log(productos.find(productosDate => productosDate.nombre == "Pañales Pampers Premium Care"))
 console.log(productos.filter(productosDate => productosDate.iva >= 1.21))
 console.log(productos.map(productosDate => productosDate = productosDate.iibb))
-console.log(productos.sort((producto1, producto3) => producto1.precio - producto3.precio))
+console.log(productos.sort((producto1, producto3) => producto1.costo - producto3.costo))
 
 console.log(`Precio final : ${producto1.precioFinal()}`)
 console.log(`Precio final : ${producto2.precioFinal()}`)
