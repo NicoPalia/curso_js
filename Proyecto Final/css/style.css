@@ -30,6 +30,10 @@ header{
     color: black;
 }
 
+#botonClientes {
+    text-align: center;
+}
+
 .main-text{
     padding: 2rem;
     text-align: center;
