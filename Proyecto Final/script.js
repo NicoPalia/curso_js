@@ -10,9 +10,42 @@ class Cliente {
 
 // Definicion de variables
 let clientes;
+let divRegistro = document.getElementById("divRegistrate");
 let formCliente = document.getElementById('formCliente')
 let divClientes = document.getElementById('divClientes')
 let parrafoError = document.getElementById('parrafoError')
+
+
+// Muestro el registro
+document.getElementById('botonRegistrate').addEventListener('click', () => {
+    divRegistro.innerHTML += `
+    <div class="container">
+    <form id="formCliente">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" >
+        </div>
+        <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" >
+          </div>
+          <div class="mb-3">
+            <label for="dni" class="form-label">DNI</label>
+            <input type="number" class="form-control" id="dni" name="dni" >
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" >
+          </div>
+          <div class="mb-3">
+            <label for="direccion" class="form-label">Domicilio</label>
+            <input type="text" class="form-control" id="direccion" name="direccion" >
+          </div>
+        <button type="submit" class="btn btn-primary">Cargar Cliente</button><br><br>
+      </form>
+</div> <br> <br>
+    `
+})
 
 // Comprueba la existencia de un cliente
 if(localStorage.getItem('clientes')) {
@@ -21,9 +54,9 @@ if(localStorage.getItem('clientes')) {
     clientes = []
 }
 
+
 //Obtengo informacion del formulario 
-formCliente.addEventListener('submit', (e) => {
-    e.preventDefault()
+formCliente.addEventListener('submit', () => {
 
     let nombreCliente = document.getElementById("nombre").value
     let apellidoCliente = document.getElementById("apellido").value
