@@ -1,0 +1,45 @@
+[
+    {
+       "id":1,
+       "nombre":"caja fuerte",
+       "precio":2000,
+       "imagen":"./img/box.png"
+    },
+    {
+       "id":2,
+       "nombre":"caja fuerte",
+       "precio":3800,
+       "imagen":"./img/box.png"
+    },
+    {
+       "id":3,
+       "nombre":"caja fuerte",
+       "precio":3200,
+       "imagen":"./img/box.png"
+    },
+    {
+       "id":4,
+       "nombre":"caja fuerte",
+       "precio":1500,
+       "imagen":"./img/box.png"
+    },
+    {
+       "id":5,
+       "nombre":"caja fuerte",
+       "precio":5000,
+       "imagen":"./img/box.png"
+    },
+    {
+       "id":6,
+       "nombre":"caja fuerte",
+       "precio":1500,
+       "imagen":"./img/box.png"
+    },
+    {
+      "id":7,
+      "nombre":"caja fuerte",
+      "precio":5500,
+      "imagen":"./img/box.png"
+   }
+    
+]
