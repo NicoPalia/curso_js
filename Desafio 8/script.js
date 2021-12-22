@@ -24,9 +24,10 @@ let caja_Array = [caja_fuerte1, caja_fuerte2, caja_fuerte3, caja_fuerte4, caja_f
 
 let div = document.getElementById("CAJAFUERTE")
 
-caja_Array.forEach(cajaFuerte => {
+caja_Array.forEach((cajaFuerte, indice) => {
     div.innerHTML += `
     <div>
+    <p> Indice: ${indice}
     <p> ID: ${cajaFuerte.id}"
     <p> Tamaño: ${cajaFuerte.tamaño}"
     <p> Peso: ${cajaFuerte.peso}"
