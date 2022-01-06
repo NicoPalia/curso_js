@@ -34,12 +34,6 @@
        "nombre":"caja fuerte",
        "precio":1500,
        "imagen":"./img/box.png"
-    },
-    {
-      "id":7,
-      "nombre":"caja fuerte",
-      "precio":5500,
-      "imagen":"./img/box.png"
-   }
+    }
     
 ]
